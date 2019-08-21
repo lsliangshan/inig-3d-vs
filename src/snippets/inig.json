@@ -1,58 +1,184 @@
 {
-  "request:requestRecommendJobs": {
-    "prefix": "request:requestRecommendJobs",
+  "job.request:requestRecommendJobs": {
+    "prefix": "job.request:requestRecommendJobs",
     "body": [
-      "/**\n * 获取推荐职位\n * resumeNumber: 简历编号\n * @可选参数 eventScenario: 事件场景，可选值:\n * \t\t- weexAppHome: Weex首页\n * \t\t- searchListRecommend: App搜索结果页\n * \t\t- nativeiOSHome: Ios原生首页\n * \t\t- nativeAndroidHome: Android原生首页\n * @可选参数 resumeVersion: 简历版本号, 默认 '1'\n * @可选参数 isCampus: 是否为学生\n * \t\t- 0: 非学生\n * \t\t- 1: 学生\n */\nrequestRecommendJobs({\n\t'resumeNumber': '${1:JM809213719R90250000000}',\n\t'eventScenario': '${2|weexAppHome,searchListRecommend,nativeiOSHome,nativeAndroidHome|}'\n})"
+      "/**",
+      " * 获取推荐职位",
+      " * resumeNumber: 简历编号",
+      " * @可选参数 eventScenario: 事件场景，可选值:",
+      " *\t\t- weexAppHome: Weex首页",
+      " *\t\t- searchListRecommend: App搜索结果页",
+      " *\t\t- nativeiOSHome: Ios原生首页",
+      " *\t\t- nativeAndroidHome: Android原生首页",
+      " * @可选参数 resumeVersion: 简历版本号, 默认 '1'",
+      " * @可选参数 isCampus: 是否为学生",
+      " *\t\t- 0: 非学生",
+      " *\t\t- 1: 学生",
+      " */",
+      "requestRecommendJobs({",
+      "\t'resumeNumber': '${1:JM809213719R90250000000}',",
+      "\t'eventScenario': '${2|weexAppHome,searchListRecommend,nativeiOSHome,nativeAndroidHome|}'",
+      "})"
     ],
     "description": "获取推荐职位"
   },
-  "request:requestJobSearch": {
-    "prefix": "request:requestJobSearch",
+  "job.request:requestJobSearch": {
+    "prefix": "job.request:requestJobSearch",
     "body": [
-      "/**\n * 搜索职位\n * kw: 搜索关键词\n * @可选参数 sort: 排序方式，可选值:\n * \t\t- 0: 默认\n * \t\t- 11: 智能排序\n * \t\t- 1: 反馈\n * \t\t- 2: 薪资\n * \t\t- 3: 距离\n * \t\t- 4: 发布时间\n * \t\t- 5: 高薪职位\n * @可选参数 salary: 薪资\n * @可选参数 coordinate: 经纬度范围，如: 41.80240000;123.37850000;3\n * @可选参数 jobType: 职位类型\n * @可选参数 industry: 行业类别\n * @可选参数 welfareTag: 福利标签ID\n * @可选参数 publishDate: 发布时间\n * @可选参数 workCity: 工作城市\n * @可选参数 companyName: 公司名称\n * @可选参数 jobName: 职位名称\n * @可选参数 experience: 工作经验要求ID\n * @可选参数 education: 学历要求ID\n * @可选参数 companyType: 公司性质ID\n * @可选参数 pageIndex: 页码, 默认 1\n * @可选参数 pageSize: 每页条数\n * @可选参数 companyScale: 公司规模ID\n * @可选参数 companyId: 公司ID\n * @可选参数 jobId: 职位ID\n * @可选参数 resumeNumber: 简历编号\n */\nrequestJobSearch({\n\t'kw': '${1:web前端}'\n})"
+      "/**",
+      " * 搜索职位",
+      " * kw: 搜索关键词",
+      " * @可选参数 sort: 排序方式，可选值:",
+      " *\t\t- 0: 默认",
+      " *\t\t- 11: 智能排序",
+      " *\t\t- 1: 反馈",
+      " *\t\t- 2: 薪资",
+      " *\t\t- 3: 距离",
+      " *\t\t- 4: 发布时间",
+      " *\t\t- 5: 高薪职位",
+      " * @可选参数 salary: 薪资",
+      " * @可选参数 coordinate: 经纬度范围，如: 41.80240000;123.37850000;3",
+      " * @可选参数 jobType: 职位类型",
+      " * @可选参数 industry: 行业类别",
+      " * @可选参数 welfareTag: 福利标签ID",
+      " * @可选参数 publishDate: 发布时间",
+      " * @可选参数 workCity: 工作城市",
+      " * @可选参数 companyName: 公司名称",
+      " * @可选参数 jobName: 职位名称",
+      " * @可选参数 experience: 工作经验要求ID",
+      " * @可选参数 education: 学历要求ID",
+      " * @可选参数 companyType: 公司性质ID",
+      " * @可选参数 pageIndex: 页码, 默认 1",
+      " * @可选参数 pageSize: 每页条数",
+      " * @可选参数 companyScale: 公司规模ID",
+      " * @可选参数 companyId: 公司ID",
+      " * @可选参数 jobId: 职位ID",
+      " * @可选参数 resumeNumber: 简历编号",
+      " */",
+      "requestJobSearch({",
+      "\t'kw': '${1:web前端}'",
+      "})"
     ],
     "description": "搜索职位"
   },
-  "request:requestJobDetail": {
-    "prefix": "request:requestJobDetail",
+  "job.request:requestJobDetail": {
+    "prefix": "job.request:requestJobDetail",
     "body": [
-      "/**\n * 获取职位详情\n * number: 职位编号\n * @可选参数 feedback: 是否组装反馈数据, 默认 false\n */\nrequestJobDetail({\n\t'number': '${CC875608890J00261530502}'\n})"
+      "/**",
+      " * 获取职位详情",
+      " * number: 职位编号",
+      " * @可选参数 feedback: 是否组装反馈数据, 默认 false",
+      " */",
+      "requestJobDetail({",
+      "\t'number': '${CC875608890J00261530502}'",
+      "})"
     ],
     "description": "获取职位详情"
   },
-  "request:requestSimilarJobs": {
-    "prefix": "request:requestSimilarJobs",
+  "job.request:requestSimilarJobs": {
+    "prefix": "job.request:requestSimilarJobs",
     "body": [
-      "/**\n * 获取相似职位\n * number: 职位编号\n * cityId: 城市ID\n * @可选参数 pageIndex: 页码, 默认 1\n */\nrequestSimilarJobs({\n\t'number': '${1:CC875608890J00261530502}',\n\t'cityId': '${2:530}'\n})"
+      "/**",
+      " * 获取相似职位",
+      " * number: 职位编号",
+      " * cityId: 城市ID",
+      " * @可选参数 pageIndex: 页码, 默认 1",
+      " */",
+      "requestSimilarJobs({",
+      "\t'number': '${1:CC875608890J00261530502}',",
+      "\t'cityId': '${2:530}'",
+      "})"
     ],
     "description": "获取相似职位"
   },
-  "request:requestAreaJobs": {
-    "prefix": "request:requestAreaJobs",
+  "job.request:requestAreaJobs": {
+    "prefix": "job.request:requestAreaJobs",
     "body": [
-      "/**\n * 获取在招职位\n * companyNumber: 公司编号，多个公司用分号区分\n * cityId: 城市ID\n * @可选参数 pageIndex: 页码, 默认 1\n */\nrequestAreaJobs({\n\t'companyNumber': '${1:CZ875608890;CZ407312210}',\n\t'cityId': '${2:530}'\n})"
+      "/**",
+      " * 获取在招职位",
+      " * companyNumber: 公司编号，多个公司用分号区分",
+      " * cityId: 城市ID",
+      " * @可选参数 pageIndex: 页码, 默认 1",
+      " */",
+      "requestAreaJobs({",
+      "\t'companyNumber': '${1:CZ875608890;CZ407312210}',",
+      "\t'cityId': '${2:530}'",
+      "})"
     ],
     "description": "获取在招职位"
   },
-  "request:requestAreaJobCity": {
-    "prefix": "request:requestAreaJobCity",
+  "job.request:requestAreaJobCity": {
+    "prefix": "job.request:requestAreaJobCity",
     "body": [
-      "/**\n * 获取在招职位所在城市\n * number: 职位编号\n * @可选参数 pageIndex: 页码, 默认 1\n */\nrequestAreaJobCity({\n\t'number': '${1:CC875608890J00261530502}'\n})"
+      "/**",
+      " * 获取在招职位所在城市22",
+      " * number: 职位编号",
+      " * @可选参数 pageIndex: 页码, 默认 1",
+      " */",
+      "requestAreaJobCity({",
+      "\t'number': '${1:CC875608890J00261530502}'",
+      "})"
     ],
     "description": "获取在招职位所在城市"
   },
-  "request:requestJobCollection": {
-    "prefix": "request:requestJobCollection",
+  "job.request:requestJobCollection": {
+    "prefix": "job.request:requestJobCollection",
     "body": [
-      "/**\n * 收藏、取消收藏职位\n * number: 职位编号\n * cityId: 城市ID\n * operateType: 操作类型\n * \t\t- 3: 收藏职位\n * \t\t- 7: 取消收藏职位\n */\nrequestJobCollection({\n\t'number': '${1:CC875608890J00261530502}',\n\t'cityId': '${2:530}',\n\t'operateType': '${3|3,7|}'\n})"
+      "/**",
+      " * 收藏、取消收藏职位",
+      " * number: 职位编号",
+      " * cityId: 城市ID",
+      " * operateType: 操作类型",
+      " *\t\t- 3: 收藏职位",
+      " *\t\t- 7: 取消收藏职位",
+      " */",
+      "requestJobCollection({",
+      "\t'number': '${1:CC875608890J00261530502}',",
+      "\t'cityId': '${2:530}',",
+      "\t'operateType': '${3|3,7|}'",
+      "})"
     ],
     "description": "收藏、取消收藏职位"
   },
-  "request:requestJobDeliver": {
-    "prefix": "request:requestJobDeliver",
+  "job.request:requestJobDeliver": {
+    "prefix": "job.request:requestJobDeliver",
     "body": [
-      "/**\n * 投递职位\n * number: 职位编号\n * resumeNumber: 简历编号\n * deliveryWay: 投递类型\n * \t\t- 0: 单投\n * \t\t- 1: 批投\n * cityId: 城市ID\n * inviteCode: 内推码\n * stPage: 来源页\n * \t\t- 5019: 搜索页\n * \t\t- 5020: 首页\n * \t\t- 5021: 详情页\n * \t\t- ...\n * askPageCode: 请求页面的pagecode\n * @可选参数 stAction: 来源的用户行为, 默认 601\n * \t\t- 601: 搜索\n * \t\t- 701: 推荐\n * \t\t- 101: 闪聘\n * @可选参数 cycleType: 闭环类型\n * \t\t- 0: 默认\n * \t\t- 1: 公司-职位\n * \t\t- 2: 职位-职位\n * \t\t- 3: 职位-投递完成\n */\nrequestJobDeliver({\n\t'number': '${1:CC875608890J00261530502}',\n\t'resumeNumber': '${2:JM809213719R90250000000}',\n\t'deliveryWay': ${3|0,1|},\n\t'cityId': '${4:530}',\n\t'inviteCode': '${5:}',\n\t'stAction': ${6:601},\n\t'stPage': ${7:50},\n\t'askPageCode': '${8:}'\n})"
+      "/**",
+      " * 投递职位",
+      " * number: 职位编号",
+      " * resumeNumber: 简历编号",
+      " * deliveryWay: 投递类型",
+      " *\t\t- 0: 单投",
+      " *\t\t- 1: 批投",
+      " * cityId: 城市ID",
+      " * inviteCode: 内推码",
+      " * stPage: 来源页",
+      " *\t\t- 5019: 搜索页",
+      " *\t\t- 5020: 首页",
+      " *\t\t- 5021: 详情页",
+      " *\t\t- ...",
+      " * askPageCode: 请求页面的pagecode",
+      " * @可选参数 stAction: 来源的用户行为, 默认 601",
+      " *\t\t- 601: 搜索",
+      " *\t\t- 701: 推荐",
+      " *\t\t- 101: 闪聘",
+      " * @可选参数 cycleType: 闭环类型",
+      " *\t\t- 0: 默认",
+      " *\t\t- 1: 公司-职位",
+      " *\t\t- 2: 职位-职位",
+      " *\t\t- 3: 职位-投递完成",
+      " */",
+      "requestJobDeliver({",
+      "\t'number': '${1:CC875608890J00261530502}',",
+      "\t'resumeNumber': '${2:JM809213719R90250000000}',",
+      "\t'deliveryWay': ${3|0,1|},",
+      "\t'cityId': '${4:530}',",
+      "\t'inviteCode': '${5:}',",
+      "\t'stAction': ${6:601},",
+      "\t'stPage': ${7:50},",
+      "\t'askPageCode': '${8:}'",
+      "})"
     ],
     "description": "投递职位"
-  },
+  }
 }

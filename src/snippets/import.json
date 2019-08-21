@@ -1,55 +1,55 @@
 {
-  "import:requestRecommendJobs": {
-    "prefix": "import:requestRecommendJobs",
+  "job.import:requestRecommendJobs": {
+    "prefix": "job.import:requestRecommendJobs",
     "body": [
       "import { requestRecommendJobs } from \"plugins-3d/lib/domains/job/service\""
     ],
     "description": "导入【获取推荐职位】"
   },
-  "import:requestJobSearch": {
-    "prefix": "import:requestJobSearch",
+  "job.import:requestJobSearch": {
+    "prefix": "job.import:requestJobSearch",
     "body": [
       "import { requestJobSearch } from \"plugins-3d/lib/domains/job/service\""
     ],
     "description": "导入【搜索职位】"
   },
-  "import:requestJobDetail": {
-    "prefix": "import:requestJobDetail",
+  "job.import:requestJobDetail": {
+    "prefix": "job.import:requestJobDetail",
     "body": [
       "import { requestJobDetail } from \"plugins-3d/lib/domains/job/service\""
     ],
     "description": "导入【获取职位详情】"
   },
-  "import:requestSimilarJobs": {
-    "prefix": "import:requestSimilarJobs",
+  "job.import:requestSimilarJobs": {
+    "prefix": "job.import:requestSimilarJobs",
     "body": [
       "import { requestSimilarJobs } from \"plugins-3d/lib/domains/job/service\""
     ],
     "description": "导入【获取相似职位】"
   },
-  "import:requestAreaJobs": {
-    "prefix": "import:requestAreaJobs",
+  "job.import:requestAreaJobs": {
+    "prefix": "job.import:requestAreaJobs",
     "body": [
       "import { requestAreaJobs } from \"plugins-3d/lib/domains/job/service\""
     ],
     "description": "导入【获取在招职位】"
   },
-  "import:requestAreaJobCity": {
-    "prefix": "import:requestAreaJobCity",
+  "job.import:requestAreaJobCity": {
+    "prefix": "job.import:requestAreaJobCity",
     "body": [
       "import { requestAreaJobCity } from \"plugins-3d/lib/domains/job/service\""
     ],
     "description": "导入【获取在招职位所在城市】"
   },
-  "import:requestJobCollection": {
-    "prefix": "import:requestJobCollection",
+  "job.import:requestJobCollection": {
+    "prefix": "job.import:requestJobCollection",
     "body": [
       "import { requestJobCollection } from \"plugins-3d/lib/domains/job/service\""
     ],
     "description": "导入【收藏、取消收藏职位】"
   },
-  "import:requestJobDeliver": {
-    "prefix": "import:requestJobDeliver",
+  "job.import:requestJobDeliver": {
+    "prefix": "job.import:requestJobDeliver",
     "body": [
       "import { requestJobDeliver } from \"plugins-3d/lib/domains/job/service\""
     ],

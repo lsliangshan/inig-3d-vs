@@ -2,13 +2,15 @@
 	"name": "inig-3d-vs",
 	"displayName": "inig-3d-vs",
 	"description": "code hint for inig ddd",
-	"version": "0.0.1",
+	"publisher": "lsliangshan",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
 	"categories": [
 		"Other"
 	],
+	"icon": "images/icon.png",
 	"activationEvents": [
 		"onCommand:extension.helloWorld"
 	],
@@ -27,6 +29,10 @@
 	},
 	"scripts": {
 		"test": "node ./test/runTest.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lsliangshan/inig-3d-vs.git"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
