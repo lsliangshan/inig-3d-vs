@@ -54,5 +54,61 @@
       "import { requestJobDeliver } from \"plugins-3d/lib/domains/job/service\""
     ],
     "description": "导入【投递职位】"
+  },
+  "导入【推荐职位】: tui jian zhi wei": {
+    "prefix": "导入【推荐职位】: tui jian zhi wei",
+    "body": [
+      "import { requestRecommendJobs } from \"plugins-3d/lib/domains/job/service\""
+    ],
+    "description": "导入【获取推荐职位】"
+  },
+  "导入【搜索职位】: sou suo zhi wei": {
+    "prefix": "导入【搜索职位】: sou suo zhi wei",
+    "body": [
+      "import { requestJobSearch } from \"plugins-3d/lib/domains/job/service\""
+    ],
+    "description": "导入【搜索职位】"
+  },
+  "导入【职位详情】: zhi wei xiang qing": {
+    "prefix": "导入【职位详情】: zhi wei xiang qing",
+    "body": [
+      "import { requestJobDetail } from \"plugins-3d/lib/domains/job/service\""
+    ],
+    "description": "导入【获取职位详情】"
+  },
+  "导入【相似职位】: xiang si zhi wei": {
+    "prefix": "导入【相似职位】: xiang si zhi wei",
+    "body": [
+      "import { requestSimilarJobs } from \"plugins-3d/lib/domains/job/service\""
+    ],
+    "description": "导入【获取相似职位】"
+  },
+  "导入【在招职位】: zai zhao zhi wei": {
+    "prefix": "导入【在招职位】: zai zhao zhi wei",
+    "body": [
+      "import { requestAreaJobs } from \"plugins-3d/lib/domains/job/service\""
+    ],
+    "description": "导入【获取在招职位】"
+  },
+  "导入【在招职位所在城市】: zai zhao zhi wei suo zai cheng shi": {
+    "prefix": "导入【在招职位所在城市】: zai zhao zhi wei suo zai cheng shi",
+    "body": [
+      "import { requestAreaJobCity } from \"plugins-3d/lib/domains/job/service\""
+    ],
+    "description": "导入【获取在招职位所在城市】"
+  },
+  "导入【收藏或取消收藏职位】: sou cang zhi wei": {
+    "prefix": "导入【收藏或取消收藏职位】: sou cang zhi wei",
+    "body": [
+      "import { requestJobCollection } from \"plugins-3d/lib/domains/job/service\""
+    ],
+    "description": "导入【收藏、取消收藏职位】"
+  },
+  "导入【投递职位】: tou di zhi wei": {
+    "prefix": "导入【投递职位】: tou di zhi wei",
+    "body": [
+      "import { requestJobDeliver } from \"plugins-3d/lib/domains/job/service\""
+    ],
+    "description": "导入【投递职位】"
   }
 }
