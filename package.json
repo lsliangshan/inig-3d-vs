@@ -3,14 +3,14 @@
 	"displayName": "inig-3d-vs",
 	"description": "code hint for inig ddd",
 	"publisher": "lsliangshan",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
 	"categories": [
 		"Other"
 	],
-	"icon": "images/inig.png",
+	"icon": "images/inig.jpg",
 	"activationEvents": [
 		"onCommand:extension.helloWorld"
 	],
