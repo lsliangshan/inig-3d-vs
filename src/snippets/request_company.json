@@ -1,0 +1,63 @@
+{
+  "company.request:requestCompanyDetail": {
+    "prefix": ["company.request:requestCompanyDetail", "请求【公司详情】: gong si xiang qing"],
+    "body": [
+      "/**",
+      " * 获取公司详情",
+      " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " * number: 公司编号",
+      " */",
+      "requestCompanyDetail({",
+      "\t'number': '${1:CZ875608890}'",
+      "})"
+    ],
+    "description": "获取公司详情"
+  },
+  
+  "company.request:requestCompanyQuestion": {
+    "prefix": ["company.request:requestCompanyQuestion", "请求【公司问答】: gong si wen da", "请求【公司问答】: qqgswd"],
+    "body": [
+      "/**",
+      " * 获取公司问答",
+      " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " * companyName: 公司名称",
+      " */",
+      "requestCompanyQuestion({",
+      "\t'companyName': '${1:广州热招测试有限公司}'",
+      "})"
+    ],
+    "description": "获取公司问答"
+  },
+  
+  "company.request:requestCompanyInterviewCount": {
+    "prefix": ["company.request:requestCompanyInterviewCount", "请求【公司面试邀请数量】: gong si mian shi yao qing shu liang", "请求【公司面试邀请数量】: qqgsmsyqsl"],
+    "body": [
+      "/**",
+      " * 获取公司面试邀请数量",
+      " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " * rootCompanyId: 公司RootID",
+      " * companyId: 公司ID",
+      " */",
+      "requestCompanyInterviewCount({",
+      "\t'rootCompanyId': '${1:87560889}'",
+      "\t'companyId': '${1:87560889}'",
+      "})"
+    ],
+    "description": "获取公司面试邀请数量"
+  },
+  
+  "company.request:requestCompanyComment": {
+    "prefix": ["company.request:requestCompanyComment", "请求【公司点评信息】: gong si dian ping xin xi", "请求【公司点评信息】: qqgsdpxx"],
+    "body": [
+      "/**",
+      " * 获取公司点评信息",
+      " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " * orgNumber: 公司编号",
+      " */",
+      "requestCompanyComment({",
+      "\torgNumber: '${1:CZ875608890}'",
+      "})"
+    ],
+    "description": "获取公司点评信息"
+  }
+}

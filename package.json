@@ -3,14 +3,14 @@
 	"displayName": "inig-3d-vs",
 	"description": "code hint for inig ddd",
 	"publisher": "lsliangshan",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
 	"categories": [
 		"Other"
 	],
-	"icon": "images/icon.png",
+	"icon": "images/inig.png",
 	"activationEvents": [
 		"onCommand:extension.helloWorld"
 	],
@@ -19,11 +19,19 @@
 		"snippets": [
 			{
 				"language": "javascript",
-				"path": "./src/snippets/inig.json"
+				"path": "./src/snippets/request_job.json"
 			},
 			{
 				"language": "javascript",
-				"path": "./src/snippets/import.json"
+				"path": "./src/snippets/import_job.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./src/snippets/import_company.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./src/snippets/request_company.json"
 			}
 		]
 	},
