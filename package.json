@@ -1,16 +1,16 @@
 {
-	"name": "inig-3d-vs",
-	"displayName": "inig-3d-vs",
+	"name": "inig-3d",
+	"displayName": "inig-3d",
 	"description": "code hint for inig ddd",
 	"publisher": "lsliangshan",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
 	"categories": [
 		"Other"
 	],
-	"icon": "images/inig.jpg",
+	"icon": "images/inig.png",
 	"activationEvents": [
 		"onCommand:extension.helloWorld"
 	],

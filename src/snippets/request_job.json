@@ -1,6 +1,9 @@
 {
   "job.request:requestRecommendJobs": {
-    "prefix": ["job.request:requestRecommendJobs", "请求【推荐职位】: tui jian zhi wei"],
+    "prefix": [
+      "job.request:requestRecommendJobs",
+      "请求【推荐职位】: tui jian zhi wei"
+    ],
     "body": [
       "/**",
       " * 获取推荐职位",
@@ -24,7 +27,10 @@
     "description": "获取推荐职位"
   },
   "job.request:requestJobSearch": {
-    "prefix": ["job.request:requestJobSearch", "请求【搜索职位】: sou suo zhi wei"],
+    "prefix": [
+      "job.request:requestJobSearch",
+      "请求【搜索职位】: sou suo zhi wei"
+    ],
     "body": [
       "/**",
       " * 搜索职位",
@@ -38,7 +44,7 @@
       " *\t\t- 3: 距离",
       " *\t\t- 4: 发布时间",
       " *\t\t- 5: 高薪职位",
-      " * @可选参数 salary: 薪资",
+      " * @可选参数 salary: 薪资，如：10000,20000 用,区分",
       " * @可选参数 coordinate: 经纬度范围，如: 41.80240000;123.37850000;3",
       " * @可选参数 jobType: 职位类型",
       " * @可选参数 industry: 行业类别",
@@ -64,7 +70,10 @@
     "description": "搜索职位"
   },
   "job.request:requestJobDetail": {
-    "prefix": ["job.request:requestJobDetail", "请求【职位详情】: zhi wei xiang qing"],
+    "prefix": [
+      "job.request:requestJobDetail",
+      "请求【职位详情】: zhi wei xiang qing"
+    ],
     "body": [
       "/**",
       " * 获取职位详情",
@@ -79,7 +88,10 @@
     "description": "获取职位详情"
   },
   "job.request:requestSimilarJobs": {
-    "prefix": ["job.request:requestSimilarJobs", "请求【相似职位】: xiang si zhi wei"],
+    "prefix": [
+      "job.request:requestSimilarJobs",
+      "请求【相似职位】: xiang si zhi wei"
+    ],
     "body": [
       "/**",
       " * 获取相似职位",
@@ -96,7 +108,10 @@
     "description": "获取相似职位"
   },
   "job.request:requestAreaJobs": {
-    "prefix": ["job.request:requestAreaJobs", "请求【在招职位】: zai zhao zhi wei"],
+    "prefix": [
+      "job.request:requestAreaJobs",
+      "请求【在招职位】: zai zhao zhi wei"
+    ],
     "body": [
       "/**",
       " * 获取在招职位",
@@ -112,8 +127,28 @@
     ],
     "description": "获取在招职位"
   },
+  "job.request:requestCompanyRecruitment": {
+    "prefix": [
+      "job.request:requestCompanyRecruitment",
+      "请求【公司在招职位的城市】: gong si zai zhao zhi wei de cheng shi"
+    ],
+    "body": [
+      "/**",
+      " * 获取公司在招职位的城市",
+      " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " * companyNumber: 公司编号，多个公司用分号区分",
+      " */",
+      "requestCompanyRecruitment({",
+      "\t'companyNumber': '${1:CZ875608890}'",
+      "})"
+    ],
+    "description": "获取公司在招职位的城市"
+  },
   "job.request:requestAreaJobCity": {
-    "prefix": ["job.request:requestAreaJobCity", "请求【在招职位所在城市】: zai zhao zhi wei suo zai cheng shi"],
+    "prefix": [
+      "job.request:requestAreaJobCity",
+      "请求【在招职位所在城市】: zai zhao zhi wei suo zai cheng shi"
+    ],
     "body": [
       "/**",
       " * 获取在招职位所在城市",
@@ -128,7 +163,10 @@
     "description": "获取在招职位所在城市"
   },
   "job.request:requestJobCollection": {
-    "prefix": ["job.request:requestJobCollection", "请求【收藏或取消收藏职位】: shou cang huo qu xiao shou cang zhi wei"],
+    "prefix": [
+      "job.request:requestJobCollection",
+      "请求【收藏或取消收藏职位】: shou cang huo qu xiao shou cang zhi wei"
+    ],
     "body": [
       "/**",
       " * 收藏或取消收藏职位",
@@ -148,7 +186,10 @@
     "description": "收藏或取消收藏职位"
   },
   "job.request:requestJobDeliver": {
-    "prefix": ["job.request:requestJobDeliver", "请求【投递职位】: tou di zhi wei"],
+    "prefix": [
+      "job.request:requestJobDeliver",
+      "请求【投递职位】: tou di zhi wei"
+    ],
     "body": [
       "/**",
       " * 投递职位",
