@@ -1,0 +1,24 @@
+{
+  "baseData.import.requestBaseDataVersion": {
+    "prefix": [
+      "baseData.import.requestBaseDataVersion",
+      "导入【基础数据版本号】: ji chu shu ju ban ben hao",
+      "导入【基础数据版本号】: drjcsjbbh"
+    ],
+    "body": [
+      "import { requestBaseDataVersion } from 'plugins-3d/lib/domains/baseData/service'"
+    ],
+    "description": "导入【获取基础数据版本号】"
+  },
+  "baseData.import.requestBaseData": {
+    "prefix": [
+      "baseData.import.requestBaseData",
+      "导入【基础数据】: ji chu shu ju",
+      "导入【基础数据】: drjcsj"
+    ],
+    "body": [
+      "import { requestBaseData } from 'plugins-3d/lib/domains/baseData/service'"
+    ],
+    "description": "导入【获取基础数据】"
+  }
+}

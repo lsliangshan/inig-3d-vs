@@ -1,0 +1,41 @@
+{
+  "baseData.request.requestBaseDataVersion": {
+    "prefix": [
+      "baseData.request.requestBaseDataVersion",
+      "请求【基础数据版本号】: ji chu shu ju ban ben hao"
+    ],
+    "body": [
+      "/**",
+      " * 获取基础数据版本号",
+      " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " * keys: 基础数据名称，多个名称用逗号 ',' 区分",
+      " */",
+      "requestBaseDataVersion({",
+      "\t'keys': '${1|employment_type,company_type,education,career_status,city_subway,overseas,salary_resume,aggregate_cities,industry,business_areas,work_experience,salary_job_60,hot_cities,skill_tag,company_size,job_type,all,publish_date,all_cities,major,map_range,marital_status,sex,card_type,skill_tag_relation,job_type_parent_before_2019,job_type_relation_before_2019,industry_relation_before_2019,xy_app_org_type,xy_app_employment_type,xy_app_specialty_job_type,xy_app_job_type|}'",
+      "})"
+    ],
+    "description": "获取基础数据版本号"
+  },
+  "baseData.request.requestBaseData": {
+    "prefix": [
+      "baseData.request.requestBaseData",
+      "请求【基础数据】: ji chu shu ju",
+      "请求【基础数据】: qqjcsj"
+    ],
+    "body": [
+      "/**",
+      " * 获取基础数据",
+      " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " * dictName: 基础数据名称",
+      " * code: 基础数据code",
+      " * withSublist: 是否包含子数据",
+      " */",
+      "requestBaseData({",
+      "\t'dictName': '${1|employment_type,company_type,education,career_status,city_subway,overseas,salary_resume,aggregate_cities,industry,business_areas,work_experience,salary_job_60,hot_cities,skill_tag,company_size,job_type,all,publish_date,all_cities,major,map_range,marital_status,sex,card_type,skill_tag_relation,job_type_parent_before_2019,job_type_relation_before_2019,industry_relation_before_2019,xy_app_org_type,xy_app_employment_type,xy_app_specialty_job_type,xy_app_job_type|}',",
+      "\t'code': '${2:100000000}',",
+      "\t'withSublist': ${3|false,true|}",
+      "})"
+    ],
+    "description": "获取基础数据"
+  }
+}
