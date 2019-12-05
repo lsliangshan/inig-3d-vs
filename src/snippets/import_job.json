@@ -1,7 +1,7 @@
 {
-  "job.import:requestRecommendJobs": {
+  "job.import.requestRecommendJobs": {
     "prefix": [
-      "job.import:requestRecommendJobs",
+      "job.import.requestRecommendJobs",
       "导入【推荐职位】: tui jian zhi wei"
     ],
     "body": [
@@ -9,9 +9,9 @@
     ],
     "description": "导入【推荐职位】"
   },
-  "job.import:requestJobSearch": {
+  "job.import.requestJobSearch": {
     "prefix": [
-      "job.import:requestJobSearch",
+      "job.import.requestJobSearch",
       "导入【搜索职位】: sou suo zhi wei"
     ],
     "body": [
@@ -19,9 +19,9 @@
     ],
     "description": "导入【搜索职位】"
   },
-  "job.import:requestJobDetail": {
+  "job.import.requestJobDetail": {
     "prefix": [
-      "job.import:requestJobDetail",
+      "job.import.requestJobDetail",
       "导入【职位详情】: zhi wei xiang qing"
     ],
     "body": [
@@ -29,9 +29,9 @@
     ],
     "description": "导入【职位详情】"
   },
-  "job.import:requestSimilarJobs": {
+  "job.import.requestSimilarJobs": {
     "prefix": [
-      "job.import:requestSimilarJobs",
+      "job.import.requestSimilarJobs",
       "导入【相似职位】: xiang si zhi wei"
     ],
     "body": [
@@ -39,9 +39,9 @@
     ],
     "description": "导入【相似职位】"
   },
-  "job.import:requestAreaJobs": {
+  "job.import.requestAreaJobs": {
     "prefix": [
-      "job.import:requestAreaJobs",
+      "job.import.requestAreaJobs",
       "导入【在招职位】: zai zhao zhi wei"
     ],
     "body": [
@@ -49,9 +49,9 @@
     ],
     "description": "导入【在招职位】"
   },
-  "job.import:requestCompanyRecruitment": {
+  "job.import.requestCompanyRecruitment": {
     "prefix": [
-      "job.import:requestCompanyRecruitment",
+      "job.import.requestCompanyRecruitment",
       "导入【公司在招职位的城市】: gong si zai zhao zhi wei de cheng shi"
     ],
     "body": [
@@ -59,9 +59,9 @@
     ],
     "description": "导入【公司在招职位的城市】"
   },
-  "job.import:requestAreaJobCity": {
+  "job.import.requestAreaJobCity": {
     "prefix": [
-      "job.import:requestAreaJobCity",
+      "job.import.requestAreaJobCity",
       "导入【在招职位所在城市】: zai zhao zhi wei suo zai cheng shi"
     ],
     "body": [
@@ -69,9 +69,9 @@
     ],
     "description": "导入【在招职位所在城市】"
   },
-  "job.import:requestJobCollection": {
+  "job.import.requestJobCollection": {
     "prefix": [
-      "job.import:requestJobCollection",
+      "job.import.requestJobCollection",
       "导入【收藏或取消收藏职位】: shou cang huo qu xiao shou cang zhi wei"
     ],
     "body": [
@@ -79,9 +79,9 @@
     ],
     "description": "导入【收藏或取消收藏职位】"
   },
-  "job.import:requestJobDeliver": {
+  "job.import.requestJobDeliver": {
     "prefix": [
-      "job.import:requestJobDeliver",
+      "job.import.requestJobDeliver",
       "导入【投递职位】: tou di zhi wei"
     ],
     "body": [

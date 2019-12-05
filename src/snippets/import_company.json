@@ -1,30 +1,43 @@
 {
-  "company.import:requestCompanyDetail": {
-    "prefix": ["company.import:requestCompanyDetail", "导入【公司详情】: gong si xiang qing", "导入【公司详情】: drgsxq"],
+  "company.import.requestCompanyDetail": {
+    "prefix": [
+      "company.import.requestCompanyDetail",
+      "导入【公司详情】: gong si xiang qing",
+      "导入【公司详情】: drgsxq"
+    ],
     "body": [
       "import { requestCompanyDetail } from 'plugins-3d/lib/domains/company/service'"
     ],
     "description": "导入【获取公司详情】"
   },
-  
-  "company.import:requestCompanyQuestion": {
-    "prefix": ["company.import:requestCompanyQuestion", "导入【公司问答】: gong si wen da", "导入【公司问答】: drgswd"],
+  "company.import.requestCompanyQuestion": {
+    "prefix": [
+      "company.import.requestCompanyQuestion",
+      "导入【公司问答】: gong si wen da",
+      "导入【公司问答】: drgswd"
+    ],
     "body": [
       "import { requestCompanyQuestion } from 'plugins-3d/lib/domains/company/service'"
     ],
     "description": "导入【获取公司问答】"
   },
-
-  "company.import:requestCompanyInterviewCount": {
-    "prefix": ["company.import:requestCompanyInterviewCount", "导入【公司面试邀请数量】: gong si mian shi yao qing shu liang", "导入【公司面试邀请数量】: drgsmsyqsl"],
+  "company.import.requestCompanyInterviewCount": {
+    "prefix": [
+      "company.import.requestCompanyInterviewCount",
+      "导入【公司面试邀请数量】: gong si mian shi yao qing shu liang",
+      "导入【公司面试邀请数量】: drgsmsyqsl"
+    ],
     "body": [
       "import { requestCompanyInterviewCount } from 'plugins-3d/lib/domains/company/service'"
     ],
     "description": "导入【获取公司面试邀请数量】"
   },
-  
-  "company.import:requestCompanyComment": {
-    "prefix": ["company.import:requestCompanyComment", "导入【公司点评信息】: gong si dian ping xin xi", "导入【公司点评信息】: drgsdpxx"],
+  "company.import.requestCompanyComment": {
+    "prefix": [
+      "company.import.requestCompanyComment",
+      "导入【公司点评信息】: gong si dian ping xin xi",
+      "导入【公司点评信息】: drgsdpxx"
+    ],
     "body": [
       "import { requestCompanyComment } from 'plugins-3d/lib/domains/company/service'"
     ],

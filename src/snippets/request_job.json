@@ -1,7 +1,7 @@
 {
-  "job.request:requestRecommendJobs": {
+  "job.request.requestRecommendJobs": {
     "prefix": [
-      "job.request:requestRecommendJobs",
+      "job.request.requestRecommendJobs",
       "请求【推荐职位】: tui jian zhi wei"
     ],
     "body": [
@@ -26,9 +26,9 @@
     ],
     "description": "获取推荐职位"
   },
-  "job.request:requestJobSearch": {
+  "job.request.requestJobSearch": {
     "prefix": [
-      "job.request:requestJobSearch",
+      "job.request.requestJobSearch",
       "请求【搜索职位】: sou suo zhi wei"
     ],
     "body": [
@@ -69,9 +69,9 @@
     ],
     "description": "搜索职位"
   },
-  "job.request:requestJobDetail": {
+  "job.request.requestJobDetail": {
     "prefix": [
-      "job.request:requestJobDetail",
+      "job.request.requestJobDetail",
       "请求【职位详情】: zhi wei xiang qing"
     ],
     "body": [
@@ -87,9 +87,9 @@
     ],
     "description": "获取职位详情"
   },
-  "job.request:requestSimilarJobs": {
+  "job.request.requestSimilarJobs": {
     "prefix": [
-      "job.request:requestSimilarJobs",
+      "job.request.requestSimilarJobs",
       "请求【相似职位】: xiang si zhi wei"
     ],
     "body": [
@@ -107,9 +107,9 @@
     ],
     "description": "获取相似职位"
   },
-  "job.request:requestAreaJobs": {
+  "job.request.requestAreaJobs": {
     "prefix": [
-      "job.request:requestAreaJobs",
+      "job.request.requestAreaJobs",
       "请求【在招职位】: zai zhao zhi wei"
     ],
     "body": [
@@ -127,9 +127,9 @@
     ],
     "description": "获取在招职位"
   },
-  "job.request:requestCompanyRecruitment": {
+  "job.request.requestCompanyRecruitment": {
     "prefix": [
-      "job.request:requestCompanyRecruitment",
+      "job.request.requestCompanyRecruitment",
       "请求【公司在招职位的城市】: gong si zai zhao zhi wei de cheng shi"
     ],
     "body": [
@@ -144,9 +144,9 @@
     ],
     "description": "获取公司在招职位的城市"
   },
-  "job.request:requestAreaJobCity": {
+  "job.request.requestAreaJobCity": {
     "prefix": [
-      "job.request:requestAreaJobCity",
+      "job.request.requestAreaJobCity",
       "请求【在招职位所在城市】: zai zhao zhi wei suo zai cheng shi"
     ],
     "body": [
@@ -162,9 +162,9 @@
     ],
     "description": "获取在招职位所在城市"
   },
-  "job.request:requestJobCollection": {
+  "job.request.requestJobCollection": {
     "prefix": [
-      "job.request:requestJobCollection",
+      "job.request.requestJobCollection",
       "请求【收藏或取消收藏职位】: shou cang huo qu xiao shou cang zhi wei"
     ],
     "body": [
@@ -185,9 +185,9 @@
     ],
     "description": "收藏或取消收藏职位"
   },
-  "job.request:requestJobDeliver": {
+  "job.request.requestJobDeliver": {
     "prefix": [
-      "job.request:requestJobDeliver",
+      "job.request.requestJobDeliver",
       "请求【投递职位】: tou di zhi wei"
     ],
     "body": [
