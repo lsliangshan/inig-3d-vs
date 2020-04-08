@@ -32,6 +32,10 @@
 			{
 				"language": "javascript",
 				"path": "./src/snippets/request_company.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./src/snippets/import_resume.json"
 			}
 		]
 	},
