@@ -1,7 +1,7 @@
 {
-  "resume.import:requestResumeGetNode": {
+  "resume.import.requestResumeGetNode": {
     "prefix": [
-      "resume.import:requestResumeGetNode",
+      "resume.import.requestResumeGetNode",
       "导入【获取简历节点信息】: huo qu jian li jie dian xin xi"
     ],
     "body": [
@@ -9,9 +9,9 @@
     ],
     "description": "导入【获取简历节点信息】"
   },
-  "resume.import:requestResumeSetNode": {
+  "resume.import.requestResumeSetNode": {
     "prefix": [
-      "resume.import:requestResumeSetNode",
+      "resume.import.requestResumeSetNode",
       "导入【添加或更新简历节点信息】: tian jia huo geng xin jian li jie dian xin xi"
     ],
     "body": [
@@ -19,9 +19,9 @@
     ],
     "description": "导入【添加或更新简历节点信息】"
   },
-  "resume.import:requestResumeDeleteNode": {
+  "resume.import.requestResumeDeleteNode": {
     "prefix": [
-      "resume.import:requestResumeDeleteNode",
+      "resume.import.requestResumeDeleteNode",
       "导入【删除简历节点信息】: shan chu jian li jie dian xin xi"
     ],
     "body": [
@@ -29,9 +29,9 @@
     ],
     "description": "导入【删除简历节点信息】"
   },
-  "resume.import:requestResumePreview": {
+  "resume.import.requestResumePreview": {
     "prefix": [
-      "resume.import:requestResumePreview",
+      "resume.import.requestResumePreview",
       "导入【预览简历】: jian li yu lan"
     ],
     "body": [
@@ -39,9 +39,9 @@
     ],
     "description": "导入【预览简历】"
   },
-  "resume.import:requestResumeDelete": {
+  "resume.import.requestResumeDelete": {
     "prefix": [
-      "resume.import:requestResumeDelete",
+      "resume.import.requestResumeDelete",
       "导入【删除简历】: shan chu jian li"
     ],
     "body": [
@@ -49,9 +49,9 @@
     ],
     "description": "导入【删除简历】"
   },
-  "resume.import:requestResumeOperate": {
+  "resume.import.requestResumeOperate": {
     "prefix": [
-      "resume.import:requestResumeOperate",
+      "resume.import.requestResumeOperate",
       "导入【操作简历】: cao zuo jian li"
     ],
     "body": [
@@ -59,9 +59,9 @@
     ],
     "description": "导入【操作简历】"
   },
-  "resume.import:requestResumeTopService": {
+  "resume.import.requestResumeTopService": {
     "prefix": [
-      "resume.import:requestResumeTopService",
+      "resume.import.requestResumeTopService",
       "导入【获取简历置顶服务】: huo qu jian li zhi ding fu wu"
     ],
     "body": [
@@ -69,9 +69,9 @@
     ],
     "description": "导入【获取简历置顶服务】"
   },
-  "resume.import:requestResumeModifyName": {
+  "resume.import.requestResumeModifyName": {
     "prefix": [
-      "resume.import:requestResumeModifyName",
+      "resume.import.requestResumeModifyName",
       "导入【修改简历名称】: xiu gai jian li ming cheng"
     ],
     "body": [
@@ -79,9 +79,9 @@
     ],
     "description": "导入【修改简历名称】"
   },
-  "resume.import:requestResumeStatus": {
+  "resume.import.requestResumeStatus": {
     "prefix": [
-      "resume.import:requestResumeStatus",
+      "resume.import.requestResumeStatus",
       "导入【获取完善到简历的第几步】: huo qu wan shan dao jian li di ji bu"
     ],
     "body": [
@@ -89,9 +89,9 @@
     ],
     "description": "导入【获取完善到简历的第几步】"
   },
-  "resume.import:requestResumeListPC": {
+  "resume.import.requestResumeListPC": {
     "prefix": [
-      "resume.import:requestResumeListPC",
+      "resume.import.requestResumeListPC",
       "导入【获取简历列表PC】: huo qu jian li lie biao PC"
     ],
     "body": [
@@ -99,9 +99,9 @@
     ],
     "description": "导入【获取简历列表PC】"
   },
-  "resume.import:requestResumeGreenScanPC": {
+  "resume.import.requestResumeGreenScanPC": {
     "prefix": [
-      "resume.import:requestResumeGreenScanPC",
+      "resume.import.requestResumeGreenScanPC",
       "导入【简历头像图片鉴定PC】: jian li tou xiang tu pian jian ding PC"
     ],
     "body": [
