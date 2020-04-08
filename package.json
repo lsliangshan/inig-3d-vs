@@ -1,9 +1,9 @@
 {
-	"name": "inig-3d-vs",
-	"displayName": "inig-3d-vs",
+	"name": "inig-3d",
+	"displayName": "inig-3d",
 	"description": "code hint for inig ddd",
 	"publisher": "lsliangshan",
-	"version": "0.0.3",
+	"version": "0.0.6",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
@@ -32,6 +32,10 @@
 			{
 				"language": "javascript",
 				"path": "./src/snippets/request_company.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./src/snippets/utils.json"
 			},
 			{
 				"language": "javascript",
