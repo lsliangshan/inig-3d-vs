@@ -2,45 +2,56 @@
   "company.import.requestCompanyDetail": {
     "prefix": [
       "company.import.requestCompanyDetail",
-      "导入【公司详情】: gong si xiang qing",
-      "导入【公司详情】: drgsxq"
+      "dao ru gong si xiang qing",
+      "drgsxq"
     ],
     "body": [
-      "import { requestCompanyDetail } from 'plugins-3d/lib/domains/company/service'"
+      "import { requestCompanyDetail } from '@zpfe/inig/dist/domains/company/service'"
     ],
-    "description": "导入【获取公司详情】"
+    "description": "导入【公司详情】"
   },
-  "company.import.requestCompanyQuestion": {
+  "company.import.requestCompanyJobs": {
     "prefix": [
-      "company.import.requestCompanyQuestion",
-      "导入【公司问答】: gong si wen da",
-      "导入【公司问答】: drgswd"
+      "company.import.requestCompanyJobs",
+      "dao ru gong si zai zhao zhi wei",
+      "drgszzzw"
     ],
     "body": [
-      "import { requestCompanyQuestion } from 'plugins-3d/lib/domains/company/service'"
+      "import { requestCompanyJobs } from '@zpfe/inig/dist/domains/company/service'"
     ],
-    "description": "导入【获取公司问答】"
+    "description": "导入【公司在招职位】"
   },
-  "company.import.requestCompanyInterviewCount": {
+  "company.import.requestCompanyEvaluation": {
     "prefix": [
-      "company.import.requestCompanyInterviewCount",
-      "导入【公司面试邀请数量】: gong si mian shi yao qing shu liang",
-      "导入【公司面试邀请数量】: drgsmsyqsl"
+      "company.import.requestCompanyEvaluation",
+      "dao ru gong si ping jia",
+      "drgspj"
     ],
     "body": [
-      "import { requestCompanyInterviewCount } from 'plugins-3d/lib/domains/company/service'"
+      "import { requestCompanyEvaluation } from '@zpfe/inig/dist/domains/company/service'"
     ],
-    "description": "导入【获取公司面试邀请数量】"
+    "description": "导入【公司评价】"
   },
-  "company.import.requestCompanyComment": {
+  "company.import.requestCompanyJobsQuery": {
     "prefix": [
-      "company.import.requestCompanyComment",
-      "导入【公司点评信息】: gong si dian ping xin xi",
-      "导入【公司点评信息】: drgsdpxx"
+      "company.import.requestCompanyJobsQuery",
+      "dao ru gong si zai zhao zhi wei shai xuan tiao jian",
+      "drgszzzwsxtj"
     ],
     "body": [
-      "import { requestCompanyComment } from 'plugins-3d/lib/domains/company/service'"
+      "import { requestCompanyJobsQuery } from '@zpfe/inig/dist/domains/company/service'"
     ],
-    "description": "导入【获取公司点评信息】"
+    "description": "导入【公司在招职位筛选条件】"
+  },
+  "company.import.requestCompanyExtDetail": {
+    "prefix": [
+      "company.import.requestCompanyExtDetail",
+      "dao ru gong si e wai xin xi",
+      "drgsewxx"
+    ],
+    "body": [
+      "import { requestCompanyExtDetail } from '@zpfe/inig/dist/domains/company/service'"
+    ],
+    "description": "导入【公司额外信息】"
   }
 }

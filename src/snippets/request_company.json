@@ -2,74 +2,107 @@
   "company.request.requestCompanyDetail": {
     "prefix": [
       "company.request.requestCompanyDetail",
-      "请求【公司详情】: gong si xiang qing"
+      "qing qiu gong si xiang qing",
+      " qqgsxq"
     ],
     "body": [
       "/**",
-      " * 获取公司详情",
+      " * 请求公司详情",
       " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
       " * number: 公司编号",
+      " * isEvaluationModule: 是否包含雇主点评模块",
       " */",
       "requestCompanyDetail({",
+      "\t'number': '${1:CZ875608890}',",
+      "\t'isEvaluationModule': '${2|1,0|}'",
+      "})"
+    ],
+    "description": "请求【公司详情】"
+  },
+  "company.request.requestCompanyJobs": {
+    "prefix": [
+      "company.request.requestCompanyJobs",
+      "qing qiu gong si zai zhao zhi wei",
+      "qqgszzzw"
+    ],
+    "body": [
+      "/**",
+      " * 请求公司在招职位",
+      " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " * number: 公司编号",
+      " * salary: 薪资",
+      " * workCity: 工作城市",
+      " * jobTypeLevel: 职位类别",
+      " */",
+      "requestCompanyJobs({",
+      "\t'number': '${1:CZ875608890}',",
+      "\t'salary': '${2:1000115000}',",
+      "\t'workCity': '${3:530}',",
+      "\t'jobTypeLevel': '${4:9000100030000}'",
+      "})"
+    ],
+    "description": "请求【公司在招职位】"
+  },
+  "company.request.requestCompanyEvaluation": {
+    "prefix": [
+      "company.request.requestCompanyEvaluation",
+      "qing qiu gong si ping jia",
+      "qqgspj"
+    ],
+    "body": [
+      "/**",
+      " * 请求公司评价",
+      " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " * number: CZ875608890",
+      " */",
+      "requestCompanyEvaluation({",
       "\t'number': '${1:CZ875608890}'",
       "})"
     ],
-    "description": "获取公司详情"
+    "description": "请求【公司评价】"
   },
-  "company.request.requestCompanyQuestion": {
+  "company.request.requestCompanyJobsQuery": {
     "prefix": [
-      "company.request.requestCompanyQuestion",
-      "请求【公司问答】: gong si wen da",
-      "请求【公司问答】: qqgswd"
+      "company.request.requestCompanyJobsQuery",
+      "qing qiu gong si zai zhao zhi wei shai xuan tiao jian",
+      "qqgszzzwsxtj"
     ],
     "body": [
       "/**",
-      " * 获取公司问答",
+      " * 请求公司在招职位筛选条件",
       " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " * number: 公司编号",
+      " */",
+      "requestCompanyJobsQuery({",
+      "\t'number': '${1:CZ875608890}'",
+      "})"
+    ],
+    "description": "请求【公司在招职位筛选条件】"
+  },
+  "company.request.requestCompanyExtDetail": {
+    "prefix": [
+      "company.request.requestCompanyExtDetail",
+      "qing qiu gong si e wai xin xi",
+      "qqgsewxx"
+    ],
+    "body": [
+      "/**",
+      " * 请求公司额外信息",
+      " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      " * number: 公司编号",
       " * companyName: 公司名称",
+      " * competitvePower: 是否显示竞争力，1: 显示，0: 不显示",
+      " * information: 是否显示工商信息，1: 显示，0: 不显示",
+      " * sourceType: 来源类型，1: 社招，2: 校招",
       " */",
-      "requestCompanyQuestion({",
-      "\t'companyName': '${1:广州热招测试有限公司}'",
+      "requestCompanyExtDetail({",
+      "\t'number': '${1:CZ875608890}',",
+      "\t'companyName': '${2:北京网聘咨询有限公司}',",
+      "\t'competitvePower': '${3|1,0|}',",
+      "\t'information': '${4|1,0|}',",
+      "\t'sourceType': '${5|1,2|}'",
       "})"
     ],
-    "description": "获取公司问答"
-  },
-  "company.request.requestCompanyInterviewCount": {
-    "prefix": [
-      "company.request.requestCompanyInterviewCount",
-      "请求【公司面试邀请数量】: gong si mian shi yao qing shu liang",
-      "请求【公司面试邀请数量】: qqgsmsyqsl"
-    ],
-    "body": [
-      "/**",
-      " * 获取公司面试邀请数量",
-      " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
-      " * rootCompanyId: 公司RootID",
-      " * companyId: 公司ID",
-      " */",
-      "requestCompanyInterviewCount({",
-      "\t'rootCompanyId': '${1:87560889}'",
-      "\t'companyId': '${1:87560889}'",
-      "})"
-    ],
-    "description": "获取公司面试邀请数量"
-  },
-  "company.request.requestCompanyComment": {
-    "prefix": [
-      "company.request.requestCompanyComment",
-      "请求【公司点评信息】: gong si dian ping xin xi",
-      "请求【公司点评信息】: qqgsdpxx"
-    ],
-    "body": [
-      "/**",
-      " * 获取公司点评信息",
-      " * $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
-      " * orgNumber: 公司编号",
-      " */",
-      "requestCompanyComment({",
-      "\torgNumber: '${1:CZ875608890}'",
-      "})"
-    ],
-    "description": "获取公司点评信息"
+    "description": "请求【公司额外信息】"
   }
 }

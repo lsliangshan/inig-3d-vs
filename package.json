@@ -1,9 +1,9 @@
 {
-	"name": "inig-3d",
-	"displayName": "inig-3d",
+	"name": "inig",
+	"displayName": "inig",
 	"description": "code hint for inig ddd",
 	"publisher": "lsliangshan",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
@@ -19,14 +19,6 @@
 		"snippets": [
 			{
 				"language": "javascript",
-				"path": "./src/snippets/request_job.json"
-			},
-			{
-				"language": "javascript",
-				"path": "./src/snippets/import_job.json"
-			},
-			{
-				"language": "javascript",
 				"path": "./src/snippets/import_company.json"
 			},
 			{
@@ -35,19 +27,7 @@
 			},
 			{
 				"language": "javascript",
-				"path": "./src/snippets/import_base_data.json"
-			},
-			{
-				"language": "javascript",
-				"path": "./src/snippets/request_base_data.json"
-			},
-			{
-				"language": "javascript",
 				"path": "./src/snippets/utils.json"
-			},
-			{
-				"language": "javascript",
-				"path": "./src/snippets/import_resume.json"
 			}
 		]
 	},
