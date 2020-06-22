@@ -1,0 +1,112 @@
+{
+  "resume.import.requestResumeGetNode": {
+    "prefix": [
+      "resume.import.requestResumeGetNode",
+      "导入【获取简历节点信息】: huo qu jian li jie dian xin xi"
+    ],
+    "body": [
+      "import { requestResumeGetNode } from 'plugins-3d/lib/domains/resume/service'"
+    ],
+    "description": "导入【获取简历节点信息】"
+  },
+  "resume.import.requestResumeSetNode": {
+    "prefix": [
+      "resume.import.requestResumeSetNode",
+      "导入【添加或更新简历节点信息】: tian jia huo geng xin jian li jie dian xin xi"
+    ],
+    "body": [
+      "import { requestResumeSetNode } from 'plugins-3d/lib/domains/resume/service'"
+    ],
+    "description": "导入【添加或更新简历节点信息】"
+  },
+  "resume.import.requestResumeDeleteNode": {
+    "prefix": [
+      "resume.import.requestResumeDeleteNode",
+      "导入【删除简历节点信息】: shan chu jian li jie dian xin xi"
+    ],
+    "body": [
+      "import { requestResumeDeleteNode } from 'plugins-3d/lib/domains/resume/service'"
+    ],
+    "description": "导入【删除简历节点信息】"
+  },
+  "resume.import.requestResumePreview": {
+    "prefix": [
+      "resume.import.requestResumePreview",
+      "导入【预览简历】: jian li yu lan"
+    ],
+    "body": [
+      "import { requestResumePreview } from 'plugins-3d/lib/domains/resume/service'"
+    ],
+    "description": "导入【预览简历】"
+  },
+  "resume.import.requestResumeDelete": {
+    "prefix": [
+      "resume.import.requestResumeDelete",
+      "导入【删除简历】: shan chu jian li"
+    ],
+    "body": [
+      "import { requestResumeDelete } from 'plugins-3d/lib/domains/resume/service'"
+    ],
+    "description": "导入【删除简历】"
+  },
+  "resume.import.requestResumeOperate": {
+    "prefix": [
+      "resume.import.requestResumeOperate",
+      "导入【操作简历】: cao zuo jian li"
+    ],
+    "body": [
+      "import { requestResumeOperate } from 'plugins-3d/lib/domains/resume/service'"
+    ],
+    "description": "导入【操作简历】"
+  },
+  "resume.import.requestResumeTopService": {
+    "prefix": [
+      "resume.import.requestResumeTopService",
+      "导入【获取简历置顶服务】: huo qu jian li zhi ding fu wu"
+    ],
+    "body": [
+      "import { requestResumeTopService } from 'plugins-3d/lib/domains/resume/service'"
+    ],
+    "description": "导入【获取简历置顶服务】"
+  },
+  "resume.import.requestResumeModifyName": {
+    "prefix": [
+      "resume.import.requestResumeModifyName",
+      "导入【修改简历名称】: xiu gai jian li ming cheng"
+    ],
+    "body": [
+      "import { requestResumeModifyName } from 'plugins-3d/lib/domains/resume/service'"
+    ],
+    "description": "导入【修改简历名称】"
+  },
+  "resume.import.requestResumeStatus": {
+    "prefix": [
+      "resume.import.requestResumeStatus",
+      "导入【获取完善到简历的第几步】: huo qu wan shan dao jian li di ji bu"
+    ],
+    "body": [
+      "import { requestResumeStatus } from 'plugins-3d/lib/domains/resume/service'"
+    ],
+    "description": "导入【获取完善到简历的第几步】"
+  },
+  "resume.import.requestResumeListPC": {
+    "prefix": [
+      "resume.import.requestResumeListPC",
+      "导入【获取简历列表PC】: huo qu jian li lie biao PC"
+    ],
+    "body": [
+      "import { requestResumeListPC } from 'plugins-3d/lib/domains/resume/service'"
+    ],
+    "description": "导入【获取简历列表PC】"
+  },
+  "resume.import.requestResumeGreenScanPC": {
+    "prefix": [
+      "resume.import.requestResumeGreenScanPC",
+      "导入【简历头像图片鉴定PC】: jian li tou xiang tu pian jian ding PC"
+    ],
+    "body": [
+      "import { requestResumeGreenScanPC } from 'plugins-3d/lib/domains/resume/service'"
+    ],
+    "description": "导入【简历头像图片鉴定PC】"
+  }
+}

@@ -44,6 +44,10 @@
 			{
 				"language": "javascript",
 				"path": "./src/snippets/utils.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./src/snippets/import_resume.json"
 			}
 		]
 	},
