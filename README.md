@@ -1,2 +1,3 @@
-# inig-3d-vs
-vscode plugin for ddd
+# inig
+<!-- vscode plugin for ddd -->
+inig-3d语法提示插件

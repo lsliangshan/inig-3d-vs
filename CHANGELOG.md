@@ -1,9 +1,80 @@
-# Change Log
+# Changelog
+## INIG语法提示
 
-All notable changes to the "inig-3d-vs" extension will be documented in this file.
+## [0.0.9] - 2020-06-22
+### 添加
+- 公司领域 - 导入【公司详情】
+  ```javascript
+  1. company.import.requestCompanyDetail
+  2. dao ru gong si xiang qing
+  3. drgsxq
+  ```
+- 公司领域 - 导入【公司在招职位】
+  ```javascript
+  1. company.import.requestCompanyEvaluation
+  2. dao ru gong si ping jia
+  3. drgspj
+  ```
+- 公司领域 - 导入【公司评价】
+  ```javascript
+  1. company.import.requestCompanyDetail
+  2. dao ru gong si xiang qing
+  3. drgsxq
+  ```
+- 公司领域 - 导入【公司在招职位筛选条件】
+  ```javascript
+  1. company.import.requestCompanyJobsQuery
+  2. dao ru gong si zai zhao zhi wei shai xuan tiao jian
+  3. drgszzzwsxtj
+  ```
+- 公司领域 - 导入【公司额外信息】
+  ```javascript
+  1. company.import.requestCompanyExtDetail
+  2. dao ru gong si e wai xin xi
+  3. drgsewxx
+  ```
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- 公司领域 - 请求【公司详情】
+  ```javascript
+  1. company.request.requestCompanyDetail
+  2. qing qiu gong si xiang qing
+  3. qqgsxq
+  ```
+- 公司领域 - 请求【公司在招职位】
+  ```javascript
+  1. company.request.requestCompanyEvaluation
+  2. qing qiu gong si ping jia
+  3. qqgspj
+  ```
+- 公司领域 - 请求【公司评价】
+  ```javascript
+  1. company.request.requestCompanyDetail
+  2. qing qiu gong si xiang qing
+  3. qqgsxq
+  ```
+- 公司领域 - 请求【公司在招职位筛选条件】
+  ```javascript
+  1. company.request.requestCompanyJobsQuery
+  2. qing qiu gong si zai zhao zhi wei shai xuan tiao jian
+  3. qqgszzzwsxtj
+  ```
+- 公司领域 - 请求【公司额外信息】
+  ```javascript
+  1. company.request.requestCompanyExtDetail
+  2. qing qiu gong si e wai xin xi
+  3. qqgsewxx
+  ```
+  
 
-## [Unreleased]
+    
+<!--
+Added: 新添加的功能
+Changed: 对现有功能的变更
+Deprecated: 已经不建议使用，即将被移除的功能
+Removed: 已经移除的功能
+Fixed: bug修复
+Security: 对安全的改进 
+-->
 
-- Initial release
+
+[0.0.9]: ''
