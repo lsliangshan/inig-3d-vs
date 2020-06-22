@@ -3,7 +3,7 @@
 	"displayName": "inig",
 	"description": "code hint for inig ddd",
 	"publisher": "lsliangshan",
-	"version": "0.0.9",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.37.0"
 	},

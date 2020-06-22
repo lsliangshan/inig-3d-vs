@@ -6,7 +6,7 @@
       "drgsxq"
     ],
     "body": [
-      "import { requestCompanyDetail } from '@zpfe/inig/dist/domains/company/service'"
+      "import { requestCompanyDetail } from '@zpm/inig/dist/domains/company/service'"
     ],
     "description": "导入【公司详情】"
   },
@@ -17,7 +17,7 @@
       "drgszzzw"
     ],
     "body": [
-      "import { requestCompanyJobs } from '@zpfe/inig/dist/domains/company/service'"
+      "import { requestCompanyJobs } from '@zpm/inig/dist/domains/company/service'"
     ],
     "description": "导入【公司在招职位】"
   },
@@ -28,7 +28,7 @@
       "drgspj"
     ],
     "body": [
-      "import { requestCompanyEvaluation } from '@zpfe/inig/dist/domains/company/service'"
+      "import { requestCompanyEvaluation } from '@zpm/inig/dist/domains/company/service'"
     ],
     "description": "导入【公司评价】"
   },
@@ -39,7 +39,7 @@
       "drgszzzwsxtj"
     ],
     "body": [
-      "import { requestCompanyJobsQuery } from '@zpfe/inig/dist/domains/company/service'"
+      "import { requestCompanyJobsQuery } from '@zpm/inig/dist/domains/company/service'"
     ],
     "description": "导入【公司在招职位筛选条件】"
   },
@@ -50,7 +50,7 @@
       "drgsewxx"
     ],
     "body": [
-      "import { requestCompanyExtDetail } from '@zpfe/inig/dist/domains/company/service'"
+      "import { requestCompanyExtDetail } from '@zpm/inig/dist/domains/company/service'"
     ],
     "description": "导入【公司额外信息】"
   }

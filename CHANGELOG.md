@@ -1,8 +1,12 @@
 # Changelog
 ## INIG语法提示
 
+## [0.1.0] - 2020-06-22
+### Fixed
+- 修复 导入语句模块名错误 的bug
+
 ## [0.0.9] - 2020-06-22
-### 添加
+### Added
 - 公司领域 - 导入【公司详情】
   ```javascript
   1. company.import.requestCompanyDetail
